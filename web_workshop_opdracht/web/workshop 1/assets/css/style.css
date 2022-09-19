@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#header{
+    background-color: #f2f2f2;
+    height: 100px;
+}
+
+#content{
+    background-color: #c9c9c9;
+    height: 400px;
+}
+
+#footer{
+    background-color: #b3b3b3;
+    height: 100px;
+}
