@@ -32,8 +32,7 @@ background: linear-gradient(90deg, rgba(62,157,236,1) 0%, rgba(1,255,0,1) 100%);
 
 #header img:hover {
   transition: 300s;
-  transform: rotate(360000deg);
-  transform: scale(1000);
+  transform: rotate(36000deg) scale(1000);
 }
 
 #header h1 {
