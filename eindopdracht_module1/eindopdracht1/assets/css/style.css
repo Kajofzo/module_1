@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.784);
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  
+}
+
+#header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ background: rgb(62,157,236);
+background: linear-gradient(90deg, rgba(62,157,236,1) 0%, rgba(1,255,0,1) 100%);
+}
+
+#header img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+
+#header img:hover {
+  transition: 300s;
+  transform: rotate(360000deg);
+  transform: scale(1000);
+}
+
+#header h1 {
+  padding-top: 30px;
+  color: #fff;
+}
+
+#content {
+  background-color: #add9f4;
+  color: #000;
+  padding: 50px;
+}
+
+#content h2 {
+  text-align: center;
+}
+
+#content #intro {
+  padding-top: 20px;
+}
+#content #overig {
+  padding-top: 20px;
+}
+#content #kennis {
+  padding-top: 20px;
+}
+#content #kennis ul {
+  padding-left: 15px;
+}
+
+#experimental {
+    background-color: #476C9B;
+    height: 1000px;
+    padding: 50px;
+}
+#experimental h2 {
+    text-align: center;
+}
+#footer {
+    background-color: #101419;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+#footer ul {
+    display: block;
+    padding-top: 10px;
+}
+#footer ul li {
+    display: inline-block;
+}
+
+#footer ul li a {
+    padding: 10px;
+}
+
+#footer ul li a img {
+    height: 75px;
+}
+
+
+
+
+      .calculator-grid {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        min-height: 100vh;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+        }
+    
+        .calculator-grid > button {
+          cursor: pointer;
+          font-size: 2rem;
+          border: 1px, solid #FFFFFF;
+          outline: none;
+          background-color: rbga(255, 255, 255, 0.75);
+        }
+    
+          .calculator-grid > button:hover {
+            background-color: #a9a9a9;
+          }
+    
+          .span-two {
+            grid-column: span 2;
+            color: #adf802;
+            background-color: rgba(139, 0, 139, 0.8);
+          }
+    
+          .output{
+            grid-column: 1 / -1;
+            background-color: rgba(0, 0, 0, 0.75);
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 10px;
+            word-wrap: break-word;
+            word-break: break-all;
+          }
+    
+          .output .previous-operand{
+            color: rgba(255,255, 255, 0.75);
+            font-size: 1.5rem;
+          }
+    
+          .output .current-operand{
+            color: white;
+            font-size: 2.5rem;
+          }
